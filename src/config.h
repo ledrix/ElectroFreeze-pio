@@ -14,7 +14,7 @@ const char* name    = "ElectroFreeze";
 IPAddress ETH_IP(192, 168, 15, 49);
 byte ETH_MAC[]          = {0xE0, 0xE0, 0xE0, 0xE0, 0xE0, 0xE9};
 
-const char* MQTT_IP     = "192.168.0.101";
+const char* MQTT_IP     = "192.168.15.8";
 const int   mqtt_rate   = 100; //Hz
 const char* scale_topic = "Gripper/reading";
 
